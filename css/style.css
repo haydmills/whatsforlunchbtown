@@ -1,0 +1,129 @@
+/* General */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  background: #FFFFFF;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+hr{
+	color:#000000;
+	background-color:#000000;
+	height: 8px;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* I use full-width horizontal sections a lot */
+body > header,
+body > section,
+body > footer {
+  display: block;
+  width: 100%;
+  clear: both;
+  float: left;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: -.05em;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.4em;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #eee;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+
+section, footer {
+  padding: 30px 0;
+}
+
+header h1 a {
+  color: #333;
+  border-bottom: none;
+}
+
+header p {
+  margin: 2em 0;
+}
+
+.lead {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+p, pre {
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+
+.button {
+  border-radius: 2px;
+  background:rgba(0,0,0,0);
+  border: 3px solid #000000;
+  padding: 8px 16px;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  margin-top:0px;
+}
+
+.button:hover, .button:focus {
+	background: #000000;
+	color: #FFFFFF;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1em;
+}
+
+@media (max-width: 720px){
+  h1 {
+    font-size: 2.2em;
+  }
+  h2 {
+    font-size: 1.9em;
+  }
+  h3 {
+    font-size: 1.6em;
+  }
+  .lead {
+    font-size: 1.8em;
+  }
+}
+
+.floatmebaby p{
+	display: inline-block;
+}
+
+.foodplace {
+	color: #e74c3c;
+}
+.center{
+	text-align: center;
+}
